@@ -47,6 +47,7 @@ const displaySearchResult = books => {
         div.innerHTML = `
             <div class="card-body">
                 ${loadCover(book.cover_i)}
+                <img src="${book.cover_i}-M.jpg" class="card-img-top" alt="...">
                 <h5 class="card-title">${book.title}</h5>
                 <p class="card-text">${book.author_name?.[0]}
                 <p class="card-text">${book.publisher?.[0]}
